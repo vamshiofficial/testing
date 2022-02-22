@@ -4,7 +4,7 @@ import React from 'react'
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text>my app</Text>
+      <Text>my one</Text>
     </View>
   )
 }
@@ -15,6 +15,7 @@ const styles = StyleSheet.create({
   container:{
     flex:1,
     justifyContent:'center',
-    alignItems:'center'
+    alignItems:'center',
+    backgroundColor:'#3498db'
   }
 })
